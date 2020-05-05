@@ -24,5 +24,10 @@ curl --request GET --url http://localhost:8080/api/search/Prague
 curl --request GET --url http://localhost:8080/api/search/Pra+Czechia
 curl --request GET --url http://localhost:8080/api/search/Pra
 curl --request GET --url http://localhost:8080/api/search/+Czechia
+curl --request GET --url http://localhost:8080/api/search/R+Germany?sort=id,asc&size=100&page=2
+
 ```
+
+## API documentation
+Swagger is available. (root will redirect to swagger ui)
 
